@@ -60,25 +60,6 @@ The denoising mechanism improves robustness and generalization.
 
 ---
 
-## 🧩 Project Architecture
-
-Book_recommender_app/
-│
-├── app.py # Streamlit application
-├── dae_model.pkl # Trained model
-├── config.py # Configuration file
-├── utils/ # Business logic
-│ ├── model_loader.py
-│ ├── recommender.py
-│ └── google_books.py
-│
-├── frontend/ # UI assets
-├── data/ # Dataset
-├── tests/ # Unit tests
-└── README.md
-
-
----
 
 ## 🛠️ Tech Stack
 
@@ -92,15 +73,7 @@ Book_recommender_app/
 | API | Google Books API |
 | Version Control | Git / GitHub |
 
----
 
-## 📊 Dataset
-
-**Book-Crossing Dataset**
-
-- +1.1M ratings  
-- Thousands of users  
-- Real-world noisy interaction data  
 
 ---
 
@@ -142,16 +115,7 @@ Docker & Cloud deployment
 MLOps pipeline integration
 ---
 
-👨‍💻 Skills Demonstrated
 
-✔ Deep Learning
-✔ Recommendation Systems
-✔ Data Preprocessing
-✔ Model Optimization
-✔ Software Architecture
-✔ API Integration
-✔ Deployment with Streamlit
----
 
 👤 Author
 
